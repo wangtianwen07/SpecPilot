@@ -1,3 +1,5 @@
+> **TensorFold fork extension / 双 Spark 工程适配**：本 fork 增加独立的 Python 标准库适配层，面向 TensorFold Native、GLM-5.3-Flash EXL3、双 DGX Spark GB10。入口：`python -m specpilot_tensorfold --help`；使用与边界见 [TensorFold adapter guide](docs/tensorfold-adapter.md)。不依赖本地 KSEO，不改变下方上游 SGLang 复现流程。具体自主优化任务须先确认目标后另行开发；此扩展不声称复现论文完整搜索控制器或取得硬件加速。
+
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="assets/wordmark_dark.png">

@@ -1,2 +1,7 @@
 __pycache__/
 *.pyc
+
+# Local deployment identities, secrets, request corpora and measured outputs.
+/.tensorfold-local/
+/tensorfold-runs/
+/.venv/
